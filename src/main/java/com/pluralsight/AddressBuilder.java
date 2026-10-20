@@ -51,6 +51,7 @@ public class AddressBuilder {
 
         String info = information.toString();
         System.out.println(info);
+        input.close();
 
 
 
