@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.Scanner;
 
 public class AddressBuilder {
@@ -37,6 +39,7 @@ public class AddressBuilder {
         String sZip = input.nextLine();
         System.out.println();
 
+        information.append(name).append("\n\n");
         information.append("Billing Address:\n");
         information.append(street).append("\n");
         information.append(city).append(", ");
